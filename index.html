@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!--A seção head contém metadados sobre o documento, como o título, charset, 
+  viewport e links para estilos e scripts.-->
+  <!--O charset define a codificação de caracteres do documento, que é UTF-8.-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--O título do documento, que é exibido na barra de título do navegador.-->
+    <title>Talii's Pizzaria</title>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+
+
+  <!--A seção body contém o conteúdo do documento, que é exibido na página.-->
+  <body>
+
+    <!--A seção header contém o cabeçalho da página, que inclui o menu de navegação.-->
+    <header>
+
+      <!--A seção nav contém o menu de navegação, que é uma lista de links para 
+      diferentes seções da página.-->
+      <nav>
+
+        <!--Cada item da lista é um link para uma seção específica da página, identificada pelo atributo href.-->
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Cardápio</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!--A seção section é uma seção genérica que pode conter qualquer tipo de 
+    conteúdo. Nesse caso, é usada para definir as diferentes seções da página.-->
+    <section id="home">
+
+      <!-- A seção div é uma seção genérica que pode conter qualquer tipo de 
+      conteúdo. Nesse caso, é usada para definir o conteúdo da seção home.-->
+      <div class="hero">
+        <!-- 
+        O elemento h1 é um título de primeiro nível, que é usado para definir 
+        o título da seção.
+      -->
+        <h1>Bem-vindo à Talli's</h1>
+        <!-- 
+        O elemento p é um parágrafo, que é usado para definir o texto da seção.
+      -->
+        <p>Saborosas pizzas feitas especialmente para você!</p>
+        <!-- 
+        O elemento a é um link, que é usado para definir um link para outra 
+        seção da página.
+      -->
+        <a href="#menu" class="cta-button">Ver Cardápio</a>
+      </div>
+    </section>
+
+    <!-- 
+    A seção section é usada para definir a seção menu, que contém a lista de 
+    pizzas.
+  -->
+    <section id="menu">
+      <!-- 
+      O elemento h2 é um título de segundo nível, que é usado para definir o 
+      título da seção.
+    -->
+      <h2>Cardápio</h2>
+      <!-- 
+      A seção ul é uma lista não ordenada, que é usada para definir a lista de 
+      pizzas.
+    -->
+      <ul class="menu-list">
+        <!-- 
+        Cada item da lista é uma seção li, que contém a imagem, título e 
+        descrição de cada pizza.
+      -->
+        <li>
+          <!-- 
+          O elemento img é usado para definir a imagem da pizza.
+        -->
+          <img src="./img/pizza margueita.jpg" alt="Pizza Margherita" />
+          <h3>Pizza Margherita</h3>
+          <!-- 
+          O elemento p é um parágrafo, que é usado para definir a descrição da 
+          pizza.
+        -->
+          <p>Molho de tomate, mussarela, manjericão fresco.</p>
+        </li>
+        <li>
+          <img src="./img/pizza pepperone.jpg" alt="Pizza Pepperoni" />
+          <h3>Pizza Pepperoni</h3>
+          <p>Molho de tomate, pepperoni, queijo mussarela.</p>
+        </li>
+        <li>
+          <img src="./img/pizza 4 queijos.png" alt="Pizza Quatro Queijos" />
+          <h3>Pizza Quatro Queijos</h3>
+          <p>Molho de tomate, mussarela, parmesão, gorgonzola, provolone.</p>
+        </li>
+        <li>
+          <img src="./img/pizza calabresa.png" alt="Pizza Calabresa" />
+          <h3>Pizza Calabresa</h3>
+          <p>Molho de tomate, calabresa, cebola, queijo mussarela.</p>
+        </li>
+        <li>
+          <img src="./img/pizza vegetariana.png" alt="Pizza Vegetariana" />
+          <h3>Pizza Vegetariana</h3>
+          <p>
+            Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.
+          </p>
+        </li>
+        <li>
+          <img
+            src="./img/pizza frango catupiry.png"
+            alt="Pizza Frango com Catupiry"
+          />
+          <h3>Pizza Frango com Catupiry</h3>
+          <p>
+            Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.
+          </p>
+        </li>
+        <li>
+          <img src="./img/pizza portuguesa.png" alt="Pizza Portuguesa" />
+          <h3>Pizza Portuguesa</h3>
+          <p>
+            Molho de tomate, presunto, ovos, cebola, azeitonas, queijo
+            mussarela.
+          </p>
+        </li>
+        <li>
+          <img src="./img/pizza supreme.png" alt="Pizza Supreme" />
+          <h3>Pizza Supreme</h3>
+          <p>
+            Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas,
+            queijo mussarela.
+          </p>
+        </li>
+        <li>
+          <img src="./img/pizza tropical.png" alt="Pizza Tropical" />
+          <h3>Pizza Tropical</h3>
+          <p>Molho de tomate, presunto, abacaxi, queijo mussarela.</p>
+        </li>
+        <li>
+          <img
+            src="./img/Pizza Margherita Especial.png"
+            alt="Pizza Margherita Especial"
+          />
+          <h3>Pizza Margherita Especial</h3>
+          <p>
+            Molho de tomate, mussarela de búfala, tomate fresco, manjericão,
+            azeite de oliva.
+          </p>
+        </li>
+        <li>
+          <img src="./img/Pizza Carne de Sol.png" alt="Pizza Carne de Sol" />
+          <h3>Pizza Carne de Sol</h3>
+          <p>
+            Molho de tomate, carne de sol desfiada, cebola roxa, queijo
+            mussarela.
+          </p>
+        </li>
+        <li>
+          <img src="./img/Pizza Caprese.png" alt="Pizza Caprese" />
+          <h3>Pizza Caprese</h3>
+          <p>
+            Molho de tomate, tomate fresco, mussarela de búfala, manjericão,
+            azeite de oliva.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 
+    As seções about e contact seguem o mesmo padrão, com títulos e parágrafos 
+    que definem o conteúdo de cada seção.
+  -->
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>
+        Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com
+        ingredientes frescos e receitas exclusivas.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+
+      <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
+
+      <!-- A seção address é usada para definir o endereço e informações de contato 
+      da pizzaria.-->
+      <address>
+        <p>
+            <strong>Endereço:</strong> Avenida Hildebrando de Lima, nº 1234 <br> Km 18, Osasco/SP CEP:12345-678
+        </p>
+    
+        <div>
+            <img class="section__img-inline" src="./img/icons8-whatsapp-50.png" alt="telefone">
+            <strong>Telefone:</strong>+5511994848862 ou +5511994115165
+            <p>
+                <strong>E-mail:</strong> <a href="mailto:contato@tallis.pizza">contato@tallis.pizza</a>
+            </p>
+        </div>
+    
+        <div>
+            <img class="section__img-inline" src="./img/icons8-relógio-50.png" alt="horario">
+            <strong>Horário de Funcionamento:</strong>
+            <p>Segunda a Sábado: 13h00 às 00h00 - Domingo: 17h00 às 23h00</p>
+        </div>   
+        
+        <div>
+          <a href="https://wa.me/5511994848862" target="_blank" id="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; z-index: 9999; background-color: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 70%; height: 70%;">
+        </a>
+        </div>
+                      
+      </address>
+    </section>
+    <!-- 
+    A seção footer é usada para definir o rodapé da página, que contém 
+    informações de copyright e desenvolvimento.
+  -->
+    <footer>
+      <p>&copy; 2024 Talli's Pizzaria</p>
+      <div id="copyright">
+        Desenvolvido por
+        <a href="https://www.linkedin.com/feed/" target="_blank"
+          >Leonardo Dias</a
+        >
+        na trilha Start na Programação 🤘 da OneBitCode.
+      </div>
+    </footer>
+  </body>
+</html>
