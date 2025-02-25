@@ -1,7 +1,13 @@
-# Talii's Pizzaria
+# 🍕 Talii's Pizzaria
 
 ## Descrição
 Uma pizzaria dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.
+
+## 🗂️ O Projeto
+Este projeto consiste em um site para uma pizzaria fictícia, desenvolvido com HTML, CSS e JavaScript. O site é totalmente responsivo, garantindo uma ótima experiência de usuário em diferentes dispositivos. Os usuários podem explorar uma seleção de pizzas em destaque, visualizar informações detalhadas e escolher entre os tamanhos disponíveis.
+
+## 📌 Objetivo
+O principal objetivo deste projeto é aprimorar meus conhecimentos em desenvolvimento web, especificamente no uso de JavaScript, HTML e CSS. A criação deste site me permitiu aprofundar meus conhecimentos práticos nessas tecnologias, com foco especial na implementação de um carrinho de compras funcional.
 
 ## Funcionalidades
 - **Home**: Apresentação da pizzaria.
@@ -24,10 +30,16 @@ Uma pizzaria dedicada a criar as melhores pizzas do mundo, com ingredientes fres
 - **Pizza Caprese**: Molho de tomate, tomate fresco, mussarela de búfala, manjericão, azeite de oliva.
 
 ## Contato
-- **Endereço**: Avenida Hildebrando de Lima, nº 1234, Km 18, Osasco/SP, CEP: 12345-678
+- **Endereço fictício**: Avenida Hildebrando de Lima, nº 1234, Km 18, Osasco/SP, CEP: 12345-678
 - **Telefone**: +5511994848862 ou +5511994115165
 - **E-mail**: [contato@tallis.pizza](mailto:contato@tallis.pizza)
 - **Horário de Funcionamento**: Segunda a Sábado: 13h00 às 00h00 - Domingo: 17h00 às 23h00
+
+### 🛠️ Linguagens e ferramentas: 
+• <img width="20px" src="https://skillicons.dev/icons?i=javascript" alt="javascript icon"/> JavaScript\
+• <img width="20px" src="https://skillicons.dev/icons?i=html" alt="html5"/> HTML5\
+• <img width="20px" src="https://skillicons.dev/icons?i=css" alt="css icon"/> CSS3
+</div>
 
 ## Desenvolvedor
 Desenvolvido por Leonardo Dias.
